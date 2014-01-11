@@ -12,10 +12,15 @@
 //code inspired by http://jsfiddle.net/4VkcF/1/
 $(document).ready(function () {
     
-$("#btnSubmit").click(function(){
+  $("#btnSubmit").click(function(){
 
-var getText= $("#txtDescription").val();
-});
+    var getText= $("#txtDescription").val();
+
+    $( "#list ul" ).append( $( "<li>" ).html(getText) );
+  });
+
+  // $('#list ul').append("<li>test</li>"); 
+
 });
 
 
