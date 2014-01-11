@@ -1,16 +1,24 @@
 <!doctype html> 
 <html> 
-<head> 
-<script type="text/javascript" src="todo.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+  <head> 
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="todo.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
 
-<form>
-    <label>Enter a Todo and hit enter!</label>
-    <input type="text" />
-</form>
-<ul></ul>
+    <!-- //code inspired by http://jsfiddle.net/4VkcF/1/ -->
+    <label>Enter a task to do and hit enter!</label>
+    <textarea id="txtDescription" class="smalltextarea" ></textarea>
+    <input type="submit" name="btnSubmit" value="Submit" id="btnSubmit">
 
-</body>
+    <ul>
+      <li>Buy plane ticket for Montreal</li>
+      <li>Move to new apartment on February 1st</li>
+      <li>Buy groceries this weekend</li>
+      <li>Graduate from Lighthouse Labs with flying colors!</li>
+    </ul>
+
+
+  </body>
 </html>
