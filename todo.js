@@ -1,5 +1,4 @@
 
-// 5. Add an "x" button alongside each todo item that when clicked removes that item.
 // 6. Create a checkbox to the left of todo items. 
 // 7. If checkbox is selected, the text in the todo item is marked with line­through (strike­through)
 
@@ -23,7 +22,12 @@ $(document).ready(function () {
 
   $("#list .delete").click(function() { 
     $(this).parent().remove();
-});
+  });
+
+  $(function () {
+    $("#sortable").sortable();
+    });
+
 
 });
 
