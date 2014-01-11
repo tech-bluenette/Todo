@@ -8,16 +8,19 @@
   <body>
 
     <!-- //code inspired by http://jsfiddle.net/4VkcF/1/ -->
-    <label>Enter a task to do and hit enter!</label>
+    <label>Input a task to do and hit enter!</label>
     <textarea id="txtDescription" class="smalltextarea" ></textarea>
     <input type="submit" name="btnSubmit" value="Submit" id="btnSubmit">
 
     <div id = "list">
       <ul>
-        <li>Buy plane ticket for Montreal</li>
-        <li>Move to new apartment on February 1st</li>
-        <li>Buy groceries this weekend</li>
-        <li>Graduate from Lighthouse Labs with flying colors!</li>
+        <li>
+          Buy plane ticket for Montreal <button class="delete">Delete</button>
+        </li>
+        <li>Move to new apartment on February 1st <button class="delete">Delete</button></li>
+        <li>Buy groceries this weekend <button class="delete">Delete</button></li>
+        <li>Graduate from Lighthouse Labs with flying colors! <button class="delete">Delete</button></li>
+        
       </ul>
     </div>
 
