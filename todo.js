@@ -59,6 +59,7 @@ $(document).ready(function () {
   // this allows the li items to be sortable
   $(function () {
     $("#sortable").sortable();
+    placeholder: "ui-sortable-placeholder"  
   });
 
 // $('input[type=checkbox]').on('change',function(){
