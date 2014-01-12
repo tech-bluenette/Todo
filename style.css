@@ -1,0 +1,28 @@
+body {  
+    text-align: center;
+     padding-top: 50px;
+}
+
+#everything {
+    border-style: groove;
+    border-width: 5px;
+    border-color: #88B7FF;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 500px;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+/*
+
+div
+{
+border:2px solid;
+border-radius:25px;
+}*/
