@@ -30,7 +30,12 @@ $(document).ready(function () {
     });
     // when checkbox is clicked it applies the css text-decoration: line-through to the parent of checkbox (that li item)
     checkBox.click(function () {
-      $(this).parent().css('textDecoration', 'line-through');
+      if($(this).parent().css("text-decoration") == "line-through solid rgb(0, 0, 0)") {
+        $(this).parent().css("text-decoration", "none");
+      }
+      else {
+        $(this).parent().css("text-decoration", "line-through");
+      }
     });
   };
 
